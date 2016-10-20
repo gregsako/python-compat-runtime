@@ -53,8 +53,6 @@ except KeyError as e:
         '\'enable_app_engine_apis: true\' under beta_settings in app.yaml.')
   else:
     raise
-except:
-  raise
 
 env_config = vmconfig.BuildVmAppengineEnvConfig()
 
